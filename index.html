@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Meta Tags -->
+  <title>Auto Clicker Chrome Extension - Fast & Minimalist Click Bot</title>
+  <meta name="description" content="Free auto clicker Chrome extension with customizable intervals (50-2000ms), random clicks, keyboard shortcuts. No login required. Works on all websites.">
+  <meta name="keywords" content="auto clicker chrome, auto clicker extension, chrome auto click, automatic clicker, click bot, auto click chrome extension, minimalist auto clicker">
+  <meta name="author" content="Lucas Guffroy">
+  <link rel="canonical" href="https://lucasguffroy59.github.io/chrome-extensions/auto-click/">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Auto Clicker Chrome Extension - Fast & Minimalist">
+  <meta property="og:description" content="Free auto clicker with customizable intervals, random clicks & keyboard shortcuts. Privacy-first, no tracking.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://lucasguffroy59.github.io/chrome-extensions/auto-click/">
+  <meta property="og:image" content="https://lucasguffroy59.github.io/chrome-extensions/auto-click/icons/icon128.png">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Auto Clicker Chrome Extension">
+  <meta name="twitter:description" content="Free minimalist auto clicker for Chrome. Fast, private, no login required.">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="icons/icon48.png">
+  
+  <link rel="stylesheet" href="styles.css">
+  
+  <!-- Schema.org structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Auto Clicker",
+    "applicationCategory": "BrowserExtension",
+    "operatingSystem": "Chrome",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "ratingCount": "2",
+      "bestRating": "5"
+    },
+    "description": "Free auto clicker Chrome extension with customizable intervals, random clicks, and keyboard shortcuts. Privacy-first with no data collection."
+  }
+  </script>
+</head>
+<body>
+  
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1>The Simplest Auto Clicker for Chrome</h1>
+        <p class="hero-subtitle">Automate repetitive clicks in 5 seconds. Fast, free, and privacy-first.</p>
+        
+        <div class="hero-badges">
+          <span class="badge">⚡ Ultra-Fast</span>
+          <span class="badge">🔒 100% Private</span>
+          <span class="badge">🌍 15 Languages</span>
+        </div>
+        
+        <a href="https://chromewebstore.google.com/detail/auto-clicker/flijegfkhhalohhkmkjldpghgejohkoo" class="cta-button primary" target="_blank" rel="noopener">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" fill="currentColor"/>
+          </svg>
+          Add to Chrome - It's Free
+        </a>
+        
+        <p class="hero-note">★★★★★ Rated 5/5 by users • No registration required</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features">
+    <div class="container">
+      <h2>Everything You Need, Nothing You Don't</h2>
+      
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">⚡</div>
+          <h3>Ultra-Fast Clicking</h3>
+          <p>Customize intervals from 50ms to 2000ms. Perfect for gaming, testing, or automation tasks.</p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">🎲</div>
+          <h3>Random Intervals</h3>
+          <p>Simulate human-like behavior with variable click intervals. Avoid detection patterns.</p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">⌨️</div>
+          <h3>Keyboard Shortcut</h3>
+          <p>Start/stop instantly with Ctrl+Shift+K (⌘+Shift+K on Mac). No need to open the popup.</p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">🌍</div>
+          <h3>15 Languages</h3>
+          <p>Full support for English, French, Spanish, Chinese, Hindi, Arabic, and 9 more languages.</p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">🔒</div>
+          <h3>100% Private</h3>
+          <p>Zero data collection. No tracking. No analytics. Your activity stays on your device.</p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">💾</div>
+          <h3>Settings Saved</h3>
+          <p>Your preferences are automatically saved. Pick up right where you left off.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section class="how-it-works">
+    <div class="container">
+      <h2>How to Use the Auto Clicker</h2>
+      
+      <div class="steps">
+        <div class="step">
+          <div class="step-number">1</div>
+          <h3>Install Extension</h3>
+          <p>Click "Add to Chrome" and confirm the installation. Takes 3 seconds.</p>
+        </div>
+        
+        <div class="step">
+          <div class="step-number">2</div>
+          <h3>Set Your Interval</h3>
+          <p>Click the extension icon, adjust the slider to your preferred speed.</p>
+        </div>
+        
+        <div class="step">
+          <div class="step-number">3</div>
+          <h3>Press Ctrl+Shift+K</h3>
+          <p>Navigate to any page and press the shortcut to start auto-clicking. Press again to stop.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Use Cases -->
+  <section class="use-cases">
+    <div class="container">
+      <h2>Perfect For</h2>
+      
+      <div class="use-cases-grid">
+        <div class="use-case">
+          <h3>🎮 Gaming Automation</h3>
+          <p>Automate repetitive clicking in idle games, clickers, and farming tasks.</p>
+        </div>
+        
+        <div class="use-case">
+          <h3>🧪 Testing & QA</h3>
+          <p>Test click-intensive features without manual effort. Perfect for developers.</p>
+        </div>
+        
+        <div class="use-case">
+          <h3>📊 Data Entry</h3>
+          <p>Speed up repetitive form filling and data submission workflows.</p>
+        </div>
+        
+        <div class="use-case">
+          <h3>⏱️ Productivity Tasks</h3>
+          <p>Automate any repetitive clicking task that wastes your time.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section class="comparison">
+    <div class="container">
+      <h2>Why Choose This Auto Clicker?</h2>
+      
+      <div class="comparison-table">
+        <div class="comparison-row header">
+          <div class="comparison-cell">Feature</div>
+          <div class="comparison-cell highlight">Our Extension</div>
+          <div class="comparison-cell">Other Extensions</div>
+        </div>
+        
+        <div class="comparison-row">
+          <div class="comparison-cell">Privacy</div>
+          <div class="comparison-cell highlight">✅ No tracking</div>
+          <div class="comparison-cell">❌ Often tracks usage</div>
+        </div>
+        
+        <div class="comparison-row">
+          <div class="comparison-cell">Speed</div>
+          <div class="comparison-cell highlight">✅ 50-2000ms range</div>
+          <div class="comparison-cell">⚠️ Limited options</div>
+        </div>
+        
+        <div class="comparison-row">
+          <div class="comparison-cell">Random Intervals</div>
+          <div class="comparison-cell highlight">✅ Built-in</div>
+          <div class="comparison-cell">❌ Rarely available</div>
+        </div>
+        
+        <div class="comparison-row">
+          <div class="comparison-cell">Keyboard Shortcut</div>
+          <div class="comparison-cell highlight">✅ Customizable</div>
+          <div class="comparison-cell">⚠️ Fixed or none</div>
+        </div>
+        
+        <div class="comparison-row">
+          <div class="comparison-cell">Price</div>
+          <div class="comparison-cell highlight">✅ Free forever</div>
+          <div class="comparison-cell">⚠️ Often premium features</div>
+        </div>
+        
+        <div class="comparison-row">
+          <div class="comparison-cell">Size</div>
+          <div class="comparison-cell highlight">✅ Ultra-lightweight</div>
+          <div class="comparison-cell">❌ Often bloated</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="faq" itemscope itemtype="https://schema.org/FAQPage">
+    <div class="container">
+      <h2>Frequently Asked Questions</h2>
+      
+      <div class="faq-list">
+        <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <h3 itemprop="name">What is an auto clicker for Chrome?</h3>
+          <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <p itemprop="text">An auto clicker is a Chrome extension that automatically performs mouse clicks at customizable intervals. It's useful for automating repetitive clicking tasks in games, testing, data entry, or any workflow that requires frequent clicking.</p>
+          </div>
+        </div>
+        
+        <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <h3 itemprop="name">How do I install the auto clicker extension?</h3>
+          <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <p itemprop="text">Click the "Add to Chrome" button above, which takes you to the Chrome Web Store. Click "Add to Chrome" on the store page, then confirm the installation. The extension icon will appear in your toolbar immediately.</p>
+          </div>
+        </div>
+        
+        <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <h3 itemprop="name">Is this auto clicker free?</h3>
+          <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <p itemprop="text">Yes, completely free forever. No premium features, no subscriptions, no hidden costs. All features are available to everyone immediately after installation.</p>
+          </div>
+        </div>
+        
+        <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <h3 itemprop="name">How fast can the auto clicker click?</h3>
+          <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <p itemprop="text">You can set click intervals from 50 milliseconds (20 clicks per second) up to 2000 milliseconds (0.5 clicks per second). The recommended minimum is 50ms for stability, though lower values are technically possible.</p>
+          </div>
+        </div>
+        
+        <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <h3 itemprop="name">Can I use random click intervals?</h3>
+          <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <p itemprop="text">Yes! Enable "Use random intervals" in the settings to make clicks occur at variable intervals between your minimum and maximum values. This simulates human-like clicking behavior and helps avoid detection patterns.</p>
+          </div>
+        </div>
+        
+        <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <h3 itemprop="name">Is the auto clicker safe to use?</h3>
+          <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <p itemprop="text">Absolutely. The extension doesn't collect any data, has no tracking, and only requires permissions to function on web pages. It's open-source and you can review the code on GitHub. Your privacy is 100% guaranteed.</p>
+          </div>
+        </div>
+        
+        <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <h3 itemprop="name">Does it work on all websites?</h3>
+          <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <p itemprop="text">Yes, the auto clicker works on all websites. It has the necessary permissions to run on any URL. However, some websites may have protection against automated clicking for security reasons.</p>
+          </div>
+        </div>
+        
+        <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <h3 itemprop="name">How do I stop the auto clicker?</h3>
+          <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <p itemprop="text">Press the same keyboard shortcut you used to start it: Ctrl+Shift+K on Windows/Linux, or Command+Shift+K on Mac. The auto clicker will stop immediately. You can also close the browser tab to stop it.</p>
+          </div>
+        </div>
+        
+        <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <h3 itemprop="name">Do I need to create an account?</h3>
+          <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <p itemprop="text">No account required. No registration, no login, no email needed. Install the extension and start using it immediately. All settings are saved locally on your device.</p>
+          </div>
+        </div>
+        
+        <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <h3 itemprop="name">Does it collect my data?</h3>
+          <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <p itemprop="text">No data collection whatsoever. The extension has zero tracking, no analytics, and doesn't send any information anywhere. Your settings are stored locally using Chrome's storage API and never leave your device.</p>
+          </div>
+        </div>
+        
+        <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <h3 itemprop="name">Can I customize the keyboard shortcut?</h3>
+          <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <p itemprop="text">The default shortcut is Ctrl+Shift+K (Command+Shift+K on Mac). You can customize it by going to chrome://extensions/shortcuts in your browser and finding "Auto Clicker" in the list.</p>
+          </div>
+        </div>
+        
+        <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <h3 itemprop="name">What languages are supported?</h3>
+          <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <p itemprop="text">The extension supports 15 languages: English, French, Spanish, Chinese, Hindi, Arabic, Bengali, Portuguese, Russian, Japanese, German, Italian, Korean, Turkish, and Dutch. The interface automatically adapts to your browser's language.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Social Proof -->
+  <section class="testimonials">
+    <div class="container">
+      <h2>Loved by Users Worldwide</h2>
+      
+      <div class="testimonials-grid">
+        <div class="testimonial">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"Minimalist, everything you need"</p>
+          <p class="testimonial-author">— Simon N. R.</p>
+        </div>
+        
+        <div class="testimonial">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"Simple, intelligent and works well"</p>
+          <p class="testimonial-author">— Salima G.</p>
+        </div>
+      </div>
+      
+      <div class="trust-badges">
+        <div class="trust-badge">
+          <strong>🔒 Privacy First</strong>
+          <p><a href="PRIVACY.md" target="_blank">Read Privacy Policy</a></p>
+        </div>
+        <div class="trust-badge">
+          <strong>⚡ Lightweight</strong>
+          <p>Under 100KB total size</p>
+        </div>
+        <div class="trust-badge">
+          <strong>✨ Always Free</strong>
+          <p>No premium features</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Final CTA -->
+  <section class="final-cta">
+    <div class="container">
+      <h2>Ready to Automate Your Clicks?</h2>
+      <p>Join users who save time every day with the simplest auto clicker for Chrome.</p>
+      
+      <a href="https://chromewebstore.google.com/detail/auto-clicker/flijegfkhhalohhkmkjldpghgejohkoo" class="cta-button primary large" target="_blank" rel="noopener">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" fill="currentColor"/>
+        </svg>
+        Add to Chrome - It's Free
+      </a>
+      
+      <p class="final-note">Free forever • No registration • Works offline • Privacy guaranteed</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-links">
+        <a href="https://github.com/lucasguffroy59/chrome-extensions" target="_blank" rel="noopener">GitHub</a>
+        <a href="PRIVACY.md" target="_blank">Privacy Policy</a>
+        <a href="CHANGELOG.md" target="_blank">Changelog</a>
+        <a href="LICENSE" target="_blank">License (MIT)</a>
+      </div>
+      <p class="footer-copyright">© 2026 Auto Clicker Chrome Extension. Made with ⚡ by <a href="https://github.com/lucasguffroy59" target="_blank" rel="noopener">Lucas Guffroy</a></p>
+    </div>
+  </footer>
+
+</body>
+</html>
